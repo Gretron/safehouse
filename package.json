@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-slider": "^2.0.4",
+    "react-toastify": "^9.1.2"
+  }
+}

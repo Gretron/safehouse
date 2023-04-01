@@ -2,12 +2,21 @@
   --padding: 2rem;
 
   color: var(--white);
-  background: var(--accent);
 
   flex-basis: calc(20% - var(--padding) * 2);
 
   padding: var(--padding);
   border-radius: 2rem;
+}
+
+.light-widget{
+  background: var(--accent);
+  width: 200px;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  display: inline-block;
 }
 
 .light-widget svg {
@@ -28,3 +37,40 @@
 .light-widget--active svg {
   fill: yellow;
 }
+
+.gaugeChart{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: 75%;
+  margin-bottom: 30px;
+}
+
+#gauge--1{
+  background: var(--accent);
+  border-radius: 30px;
+  padding: 30px;
+  margin-right: 40px;
+}
+
+#gauge--2{
+  background: var(--accent);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.light-intensity-widget{
+  background: var(--accent); 
+  width: 25%;
+  height: 25%;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+#light-bulb{
+  width: 75%;
+  height: 75%;
+}
+
+
+
